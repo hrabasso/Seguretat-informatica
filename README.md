@@ -47,4 +47,52 @@ Els equips que es connectaran al SAI són els quatre ordinadors i el router.
 
 ### 3.2. Marge de seguretat del 20 %
 
-Per garantir que el SAI pugui treballar amb marge su
+Per garantir que el SAI pugui treballar amb marge suficient, afegim un 20 % de reserva:
+
+972 W × 1,20 = **1.166,4 W**
+
+Per tant, necessitem un SAI capaç de proporcionar com a mínim **1.166 W**.
+
+### 3.3. Conversió a VA
+
+Utilitzant un factor de potència de 0,8:
+
+1.166,4 W ÷ 0,8 = **1.458 VA**
+
+Per tant, el SAI ha de tenir com a mínim aproximadament **1.500 VA** i una potència activa superior als **1.166 W** calculats.
+
+Per garantir també l'autonomia necessària, es compararan models de **1500 VA**.
+
+### 3.4. Autonomia mínima
+
+L'empresa necessita que el SAI pugui mantenir els equips funcionant durant un mínim de **10 minuts**. Aquest temps permet guardar la feina i apagar els ordinadors de manera segura en cas d'una incidència elèctrica.
+
+## 4. Comparativa de tres models de SAI
+
+A continuació es comparen tres models reals que superen la potència mínima calculada.
+
+![Comparativa dels tres models de SAI](./img/img1.png)
+
+## 5. Selecció del SAI
+
+### Model seleccionat: Minuteman PRO2000RT2U
+
+Després de comparar els tres models, es proposa el **Minuteman PRO2000RT2U** per a TecnoGestió S.L.
+
+Els principals motius són:
+
+* Té una potència de **2000 VA / 1400 W**, superior als aproximadament 1.166 W calculats amb un marge de seguretat.
+* La seva autonomia publicada és de **15 minuts a càrrega completa**, superior als 10 minuts mínims requerits.
+* Utilitza tecnologia **online de doble conversió** i proporciona una ona sinusoidal pura.
+* El preu consultat és de **758,48 €**.
+* Disposa de connexions i opcions de gestió que poden ser útils per a una empresa.
+
+La impressora multifunció es mantindrà fora del SAI perquè el seu consum durant la impressió podria reduir considerablement l'autonomia disponible per als ordinadors.
+
+## 6. Conclusions
+
+La càrrega protegida pel SAI és de **972 W**. Aplicant un marge de seguretat del 20 %, obtenim una potència necessària de **1.166,4 W**, que equival aproximadament a **1.458 VA** utilitzant un factor de potència de 0,8.
+
+Per tant, el SAI ha de tenir com a mínim uns **1.500 VA** i superar els **1.166 W** de potència activa.
+
+S'han comparat tres models reals de SAI tenint en compte la potència, el tipus, l'autonomia i el preu. El model proposat és el **Minuteman PRO2000RT2U**, ja que compleix àmpliament els requisits de potència i autonomia establerts per a l'empresa.
